@@ -1,0 +1,50 @@
+/************* ELEMENT SELECTORS *************/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900; /* don't need to specify Montserrat-black in the family anymore as it is all integrated int he parent Montserrat value */
+  line-height: 1.5;
+}
+
+/*************** ID SELECTORS ****************/
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 125px;
+}
+
+/************** CLASS SELECTORS **************/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  margin: 0 20px;
+  font-size: 1.25rem;
+}
+
+.title-desc {
+  margin: 50px auto 30px;
+}
+
+.title-left {
+  padding-left: 30px;
+}
+
+.title-iphone-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
